@@ -1,0 +1,33 @@
+body{
+font-size:16px;
+line-height:1.5;
+overflow-x: hidden;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	outline: line;
+}
+:before,:after{
+box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+
+}
+ul{
+list-style: none;
+margin:0;
+padding: 0;
+
+}
+img{
+vertical-align: widdle;
+max-width: 100px;
+}
+.header{
+	background: gray;
+	padding: 20px 15px;
+
+}
