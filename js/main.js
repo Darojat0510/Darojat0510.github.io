@@ -199,14 +199,14 @@ popup.scrollTo(0,projectDetailsContainer.offsetTop);
 
 
 
-// (()=>{
-// const sections=document.querySelectorAll(".section");
-// sections.forEach((section)=>{
-//  if(!section.classList.contains("active")){
-//     section.classList.add("hide");
-//  }
-// })
-// })();
+(()=>{
+const sections=document.querySelectorAll(".section");
+sections.forEach((section)=>{
+ if(!section.classList.contains("active")){
+    section.classList.add("hide");
+ }
+})
+})();
 
 
 window.addEventListener("load",()=>{
